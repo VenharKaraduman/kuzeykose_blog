@@ -28,8 +28,9 @@ const BlogPost = ({ post }) => (
 
 BlogPost.getInitialProps = async ({ req, query }) => {
   //`https://kuzeykose-blog.now.sh/api/post/${query.postId}`
+  // `http://localhost:3000/api/post/${query.postId}`
   //kuzeykose.com
-  const res = await fetch(`http://localhost:3000/api/post/${query.postId}`);
+  const res = await fetch(`https://kuzeykose-blog.now.sh/api/post/${query.postId}`);
   const json = await res.json();
   return { post: json.post };
 };

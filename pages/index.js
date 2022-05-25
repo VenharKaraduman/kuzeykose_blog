@@ -2,12 +2,10 @@ import React from "react";
 import Nav from "../components/nav.js";
 import RoundedText from "../components/RoundedText";
 
-const Home = ({}) => (
-  <div>
-    <div className="container">
-      <Nav />
-        <RoundedText />
-    </div>
+const Home = ({ }) => (
+  <div className="flex justify-center">
+    <Nav />
+    <RoundedText />
   </div>
 );
 
