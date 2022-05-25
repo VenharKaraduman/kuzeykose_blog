@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import '../style/index.css';
 import Nav from '../components/nav.js'
 
 const Home = ({}) => (
