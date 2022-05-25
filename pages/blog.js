@@ -42,7 +42,11 @@ const blogPage = ({ posts }) => (
 
 blogPage.getInitialProps = async ({ req }) => {
   // "https://kuzeykose-blog.now.sh/api/posts"
-  const res = await fetch("https://kuzeykose-blog.now.sh/api/posts",{ 'Access-Control-Allow-Origin': '*'});
+  const res = await fetch("https://kuzeykose-blog.now.sh/api/posts",{
+    headers: {
+      'Access-Control-Allow-Origin' : '*'
+    },
+  });
   const json = await res.json();
   return { posts: json.posts };
 };
