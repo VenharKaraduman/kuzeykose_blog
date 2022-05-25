@@ -1,5 +1,4 @@
 import React from "react";
-import '../style/index.css';
 import Nav from '../components/nav.js'
 
 const Hakkimda = ({ }) => (
@@ -9,7 +8,6 @@ const Hakkimda = ({ }) => (
       <div className="m-12 md:mt-56 text-center">
         <p className="text-6xl">Selam, Ben Kuzey!</p>
         <p className="text-lg">
-          İstanbul Bilgi Üniversitesinde Elektrik ve Elektronik Mühendisliği okuyorum. Her gün kendimi geliştirmeye çalıştırıyorum. Bu blog öğrendiklerimi ve düşüncelerimi paylaşacağım bir ortam. Spor, teknoloji, mühendislik ve benzeri konularda yazmayı seviyorum.
       </p>
       </div>
 
@@ -23,7 +21,6 @@ const Hakkimda = ({ }) => (
     `}</style>
     </div>
   </div>
-
 );
 
 

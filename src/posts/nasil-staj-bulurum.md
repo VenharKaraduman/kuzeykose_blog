@@ -15,3 +15,4 @@ Size bir mentör verdilerse bu süper bir haberdir. Gelişim açısından eksikl
 Toplantılara katılmak için izin isteyin. Şirketin neler yaptığını daha iyi anlarsınız. Kim hangi projede çalışıyor? Hangi proje ne için tasarlanıyor? Genel konuları gözlemler ve toplantılarda neler tartışıldığına dair bir fikir sahibi olursunuz.
 Kendi bölümünüze özen gösterin ancak diğer bölümleri göz ardı etmeyin. İnsan kaynakları nelere dikkat ediyor? Tasarımcılar neler yapıyor? Yazılım bölümü hangi projeler üzerine çalışıyor? ve bunun gibi bir sürü konuda fikir sahibi olun. Bu sizi, bir şirket, bütün olarak nasıl hareket eder konusunda öne çıkartacaktır.
 Her şeyin güzel geçtiğini varsayıyorum ve artık stajınız bitti. Neler öğrendiğinizi unutmamaya gayret edin. Deneyimlerinizi ve tecrübelerinizi unutmayın ki üzerine yeni bilgiler koyarak gelişiminize devam edin.
+

@@ -1,41 +1,37 @@
-import React from 'react'
-import '../style/index.css'
+import Link from "next/link";
+import React from "react";
 
-// { href: 'sosyalMedya', label: 'Sosyal Medya' }
 const links = [
-  { href: 'index', label: 'Blog' },
-  { href: 'Hakkimda', label: 'Hakkımda' },
-].map(link => {
-  link.key = `nav-link-${link.href}-${link.label}`
-  return link
-})
-
+  { href: "/", label: "Home" },
+  { href: "blog", label: "Blog" },
+  { href: "https://www.youtube.com/kuzeykose", label: "YouTube" },
+].map((link) => {
+  link.key = `nav-link-${link.href}-${link.label}`;
+  return link;
+});
 
 const Nav = () => (
-  <nav>
-    <ul className="flex flex-row justify-center font-sans">
+  <nav className="flex justify-center mt-6">
+    <ul className="font-sans flex-row flex">
       {links.map(({ key, href, label }) => (
-        <li className="px-4 py-2 m-1" key={key}>
-          <a href={href}>{label}</a>
+        <li className="px-2" key={key}>
+          {label === "YouTube" ? (
+            <a href={href} target="_blank">
+              <button className="p-1 bg-red-50 hover:bg-red-100">
+                {label}
+              </button>
+            </a>
+          ) : (
+            <Link href={href}>
+              <button className="p-1 bg-green-50 hover:bg-green-100">
+                {label}
+              </button>
+            </Link>
+          )}
         </li>
       ))}
     </ul>
-
-    <style jsx>{`
-      :global(body) {
-        margin: 0;
-        font-family: 'PT Serif', serif;
-      }
-      nav {
-        overflow: hidden;
-        background-color: #fff;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 20px 0 rgba(0, 0, 0, 0.1);
-      }   
-    `}</style>
   </nav>
-)
+);
 
-export default Nav
+export default Nav;

@@ -1,9 +1,10 @@
 Son zamanların popüler konularıdan bir tanesi olan yazılım; gün geçtikçe bilinirliği artan, güzel iş imkanlarına sahip ve eğlenceli bir konu. Yazılıma başlamak ise çok karmaşık gibi görünebilir, gün geçtikçe artan teknolojilerin sayısı, yazılıma başlamayı daha da karmaşıklaştırıyor. Aslında baktığımız zaman bu serüvene başlamak çok kolay. Peki nasıl başlamalıyız, hangi dili öğrenmeliyiz, nasıl projeler geliştirmeliyiz?
+
 Hangi programlama dili ile başlamalıyım?
 Programlama dillerinin farkı, yazım şekilleri ve platform farklılıklarıdır. Hangi dille başlarsanız başlayın, genel konseptleri kavramak çok önemli, nesne yönetimli programlama konusu buna örnek olarak gösterilebilir. Eğer bir programlama dilini iyi bir şekilde kavrarsanız diğer dilleri öğrenmekte kolaylaşacaktır. Şöyle düşünebiliriz, yazdığımız bütün kodlar eninde sonunda 0 ile 1e dönecek.
 Yazılımla, lise zamanlarımda tanıştım. Biraz araştırma yapıp, nedendir bilinmez, C# kitabı edinmiştim. Bu kitabı üzerine düşünerek okudum, içinde yazan her kodu denedim ve kendimi geliştirmeye çalıştım. Değişken, dizi, metod, sınıf gibi kavramların neler olduğunu öğrendim ve minik algoritmalar geliştirmeye başlamıştım.
 Hangi programlama dili ile başlayacağınızı seçmek çok zor bir konu gibi görünebilir. Aslında üzerine çok düşünmeye gerek yok, önemli olan zaman kaybetmeden birine başlayarak kendinizi geliştirmeniz ve hangi platforma uygulama geliştireceğinize karar vermeniz.
-Python, yeni başlayanlara çok önerilen bir programlama dili çünkü yazımı çok rahat ve ingilizceye yakın olmasından dolayı çok anlaşılır. Java, C# gibi dillerin yazımları biraz daha zor olasa da benim tavsiye edeceğim diller bunlar olur. Bunun tek nedeni var, bu dillerle konseptleri kavramak daha kolay, her şey gözünüzün önünde yazılı bir şekilde duracaktır. Ne kadar kelime, o kadar öğreneceğiniz konu demek. Yavaş yavaş bilginiz artacak ve bütün programlama dilleri sizin için öğrenilebilir olacaktır, yeterki emek verin ve mesai harcayın. 
+Python, yeni başlayanlara çok önerilen bir programlama dili çünkü yazımı çok rahat ve ingilizceye yakın olmasından dolayı çok anlaşılır. Java, C# gibi dillerin yazımları biraz daha zor olasa da benim tavsiye edeceğim diller bunlar olur. Bunun tek nedeni var, bu dillerle konseptleri kavramak daha kolay, her şey gözünüzün önünde yazılı bir şekilde duracaktır. Ne kadar kelime, o kadar öğreneceğiniz konu demek. Yavaş yavaş bilginiz artacak ve bütün programlama dilleri sizin için öğrenilebilir olacaktır, yeterki emek verin ve mesai harcayın.
 Önerdiğim kitaplara göz atmanızı tavsiye ederim.
 
 - Algoritma ve Programlama Mantığı — H. Burak Tungut
@@ -22,3 +23,4 @@ Programlama dilleri ile ilgili bir sürü video var. Udemy, youtube ve bir çok 
 - freeCodeCamp — Youtube
 - BilgisayarKavramları — Youtube
 - Udemy Yazılım Bölümü
+
