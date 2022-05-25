@@ -11,7 +11,7 @@ const links = [
 });
 
 const Nav = () => (
-  <nav className="flex justify-center mt-6 w-full">
+  <nav className="flex justify-center mt-6">
     <ul className="font-sans flex-row flex">
       {links.map(({ key, href, label }) => (
         <li className="px-2" key={key}>
@@ -31,6 +31,7 @@ const Nav = () => (
         </li>
       ))}
     </ul>
+
   </nav>
 );
 

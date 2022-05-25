@@ -5,10 +5,10 @@ import ReactMarkdown from "react-markdown";
 import Nav from "../components/nav";
 
 const blogPage = ({ posts }) => (
-  <div>
-    <div className="container">
+  <div className="container">
+    <div className="">
       <Nav />
-      <div className="flex justify-center ">
+      <div className="flex justify-center">
         <div className="cursor-pointer w-2/4">
           {posts.map((post) => (
             <Link href={post.slug}>
@@ -30,6 +30,13 @@ const blogPage = ({ posts }) => (
         </div>
       </div>
     </div>
+    <style jsx>{`
+      .container {
+        max-width: 1050px;
+        width: 100%;
+        margin: 0 auto;
+      }
+    `}</style>
   </div>
 );
 

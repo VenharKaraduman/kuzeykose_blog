@@ -19,7 +19,7 @@ const BlogPost = ({ post }) => (
     </div>
     <style jsx>{`
       .container {
-        max-width: 850px;
+        max-width: 1050px;
         margin: 0 auto;
       }
     `}</style>
@@ -28,7 +28,7 @@ const BlogPost = ({ post }) => (
 
 BlogPost.getInitialProps = async ({ req, query }) => {
   //`https://kuzeykose-blog.now.sh/api/post/${query.postId}`
-  // `http://localhost:3000/api/post/${query.postId}`
+  //`http://localhost:3000/api/post/${query.postId}`
   //kuzeykose.com
   const res = await fetch(`https://kuzeykose-blog.now.sh/api/post/${query.postId}`);
   const json = await res.json();
