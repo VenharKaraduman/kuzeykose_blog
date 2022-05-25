@@ -31,9 +31,7 @@ BlogPost.getInitialProps = async ({ req, query }) => {
   //`http://localhost:3000/api/post/${query.postId}`
   //kuzeykose.com
   const res = await fetch(`https://kuzeykose-blog.vercel.app/api/post/${query.postId}`, {
-    headers: {
-      'Access-Control-Allow-Origin' : '*'
-    },
+    mode: "no-cors",
   });
   const json = await res.json();
   return { post: json.post };
