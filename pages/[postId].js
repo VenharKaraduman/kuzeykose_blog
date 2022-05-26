@@ -27,11 +27,12 @@ const BlogPost = ({ post }) => (
 );
 
 BlogPost.getInitialProps = async ({ req, query }) => {
-  //`https://kuzeykose-blog.now.sh/api/post/${query.postId}`
-  //`http://localhost:3000/api/post/${query.postId}`
-  //kuzeykose.com
+  // http://localhost:3000/api/post/${query.postId}
+  // https://kuzeykose-blog.vercel.app//api/post/${query.postId}
   const res = await fetch(`https://kuzeykose-blog.vercel.app/api/post/${query.postId}`, {
-    mode: "no-cors",
+    headers: {
+      'Access-Control-Allow-Origin' : '*'
+    },
   });
   const json = await res.json();
   return { post: json.post };

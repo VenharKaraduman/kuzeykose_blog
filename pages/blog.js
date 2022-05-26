@@ -41,9 +41,11 @@ const blogPage = ({ posts }) => (
 );
 
 blogPage.getInitialProps = async ({ req }) => {
-  // "https://kuzeykose-blog.now.sh/api/posts"
+  // https://kuzeykose-blog.vercel.app/api/posts
   const res = await fetch("https://kuzeykose-blog.vercel.app/api/posts",{
-    mode: "no-cors",
+    headers: {
+      'Access-Control-Allow-Origin' : '*'
+    },
   });
   const json = await res.json();
   return { posts: json.posts };
